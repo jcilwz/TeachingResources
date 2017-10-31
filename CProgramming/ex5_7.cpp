@@ -4,8 +4,13 @@ void main()
 	long n,m;
 	int a=0,b=0;
 	float t = 1,p;
-	cout<<"请输入一个不超过8位的整数: ";
+	cout<<"璇疯緭鍏ヤ竴涓笉瓒呰繃8浣嶇殑鏁存暟: ";
 	cin>>n;
+	if( 0 == n)
+	{
+		cout<<<n<<"鐨勭姱浜岀▼搴︽槸:"<<0<<"%"<<endl;
+		return;
+	}
 	m = n;
 	if( n < 0)
 	{
@@ -24,6 +29,6 @@ void main()
 	
 	p = b/(float)a*t*100;
 
-	cout<<n<<"的犯二程度是:"<<p<<"%"<<endl;
+	cout<<n<<"鐨勭姱浜岀▼搴︽槸:"<<p<<"%"<<endl;
 }
 
