@@ -1,0 +1,17 @@
+实验7-3：
+ a[8]=data
+ k>0
+ temp=a[k]
+ break
+ k<9
+
+实验7-5：
+ 1. a[i]%2
+ 2. a[j]
+ 3. j
+
+实验7-8：
+ a[i]>='0' && a[i]<='9'
+ sum2++
+ sum3++
+ gets(string)
